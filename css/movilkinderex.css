@@ -1,0 +1,362 @@
+/* VISTA ESCRITORIO */
+@media screen and (min-width: 769px) {
+  nav {
+    display: flex !important;
+  }
+}
+
+/* MENU MOVIL */
+@media screen and (max-width: 768px) {
+  header {
+    position: relative;
+    padding: 15px 20px;
+    flex-direction: row-reverse;
+  }
+
+  .logo img {
+    max-width: 120px;
+  }
+
+  #iconomenu {
+    display: flex;
+  }
+
+  nav {
+    display: none;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--color-principal);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 999;
+    margin-top: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  nav a {
+    width: 100%;
+    display: block;
+    color: white !important;
+    padding: 20px 30px;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+  }
+
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white !important;
+  }
+
+  nav a:last-child {
+    border-bottom: none;
+  }
+
+  /* AJUSTES SLIDER MOVIL */
+  .slider-container {
+    height: 500px;
+  }
+
+  .slider-content {
+    padding: 0 30px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.7) 100%);
+  }
+
+  .slider-text {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .slider-text h1 {
+    font-size: 36px;
+  }
+
+  .slider-text h1 span {
+    font-size: 32px;
+  }
+
+  /* FLECHAS EN MOVIL */
+  .rslides_nav {
+    font-size: 50px;
+    padding: 5px 15px;
+  }
+
+  .rslides_nav.prev {
+    left: 10px;
+  }
+
+  .rslides_nav.next {
+    right: 10px;
+  }
+
+  /* QUIENES SOMOS EN MOVIL */
+  .cont-quienes {
+    padding: 50px 20px;
+  }
+
+  .quienes-titulo {
+    font-size: 28px;
+  }
+
+  .quienes-descripcion {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  .quienes-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .quienes-icono {
+    width: 80px;
+    height: 80px;
+  }
+
+  .quienes-icono i {
+    font-size: 32px;
+  }
+
+  .quienes-card h3 {
+    font-size: 18px;
+  }
+
+  .quienes-card p {
+    font-size: 13px;
+  }
+
+  /* ACORDEON EN MOVIL */
+  .cont-programas {
+    padding: 40px 0 0 0;
+  }
+
+  .acordeon {
+    max-width: 100%;
+  }
+
+  .acordeon-header {
+    padding: 30px 25px;
+  }
+
+  .acordeon-icono {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+
+  .acordeon-icono i {
+    font-size: 24px;
+  }
+
+  .acordeon-header h3 {
+    font-size: 20px;
+  }
+
+  .acordeon-contenido {
+    padding: 25px;
+  }
+
+  .acordeon-contenido p {
+    font-size: 15px;
+  }
+
+  /* SECCION PRESCHOOL EN MOVIL */
+  .cont-preschool {
+    padding: 60px 30px;
+  }
+
+  .preschool-subtitle {
+    font-size: 16px;
+  }
+
+  .preschool-title {
+    font-size: 28px;
+  }
+
+  .btn-modal {
+    padding: 16px 50px;
+    font-size: 15px;
+  }
+
+  /* MODAL EN MOVIL */
+  .modal-container {
+    width: 95%;
+    max-width: 95%;
+    padding: 30px 25px;
+  }
+
+  .modal-title {
+    font-size: 24px;
+  }
+
+  .modal-imagen {
+    height: 180px;
+  }
+
+  .modal-texto {
+    font-size: 13px;
+  }
+
+  .btn-send {
+    padding: 14px 45px;
+    font-size: 14px;
+  }
+
+  /* CAROUSEL EN MOVIL */
+  .cont-carousel {
+    padding: 40px 20px;
+  }
+
+  .carousel-titulo {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .carousel-nav {
+    margin-bottom: 20px;
+  }
+
+  .carousel-nav a {
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+  }
+
+  .carousel-slide {
+    max-width: 100%;
+  }
+
+  .carousel-imagen {
+    height: 250px;
+  }
+
+  .carousel-content {
+    padding: 25px 20px;
+  }
+
+  .carousel-content h3 {
+    font-size: 20px;
+  }
+
+  .carousel-descripcion {
+    font-size: 13px;
+  }
+
+  .carousel-teacher {
+    font-size: 13px;
+  }
+
+  /* ACORDEON PRECIOS EN MOVIL */
+  .cont-precios-acordeon {
+    padding: 50px 20px;
+    max-width: 100%;
+  }
+
+  .precios-titulo {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .precio-acordeon-header {
+    padding: 20px 25px;
+  }
+
+  .precio-acordeon-header h3 {
+    font-size: 20px;
+  }
+
+  .precio-icono {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .precio-acordeon-content {
+    padding: 30px 20px;
+  }
+
+  .precio-imagen {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 25px;
+  }
+
+  .precio-descripcion {
+    font-size: 14px;
+  }
+
+  .precio-monto {
+    font-size: 28px;
+  }
+
+  .precio-btn {
+    padding: 14px 45px;
+    font-size: 15px;
+  }
+
+  /* FOOTER EN MOVIL */
+  .footer {
+    padding: 40px 0 30px 0;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 0 20px;
+  }
+
+  .footer-logo img {
+    width: 50px;
+  }
+
+  .footer-logo figcaption h3 {
+    font-size: 24px;
+  }
+
+  .footer-descripcion {
+    font-size: 14px;
+  }
+
+  .footer-contact h3 {
+    font-size: 20px;
+  }
+
+  .contact-item {
+    gap: 12px;
+  }
+
+  .contact-item i {
+    font-size: 16px;
+    width: 20px;
+  }
+
+  .contact-item p {
+    font-size: 14px;
+  }
+}
+
+/* TABLETS */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .ancho {
+    padding: 0 30px;
+  }
+
+  .slider-content {
+    padding: 0 50px;
+  }
+
+  .slider-text h1 {
+    font-size: 48px;
+  }
+
+  .slider-text h1 span {
+    font-size: 44px;
+  }
+}

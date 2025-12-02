@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloss.css">
+    <link rel="stylesheet" href="css/movilkinderex.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d188054eba.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.55/responsiveslides.min.js"></script>
+    <title>Kinderex - Centro de Aprendizaje</title>
+</head>
+<body>
+    <header class="ancho">
+        <figure class="logo">
+            <img src="imagenes/logo_cabecera.png" alt="Kinderex">
+        </figure>
+        <a href="#" id="iconomenu">
+            <i class="fas fa-bars fa-2x"></i>
+        </a>
+        <nav id="cajamenu">
+            <a href="#quienes">Quienes Somos</a>
+            <a href="#programas">Nuestros programas</a>
+            <a href="#instalaciones">Instalaciones</a>
+            <a href="#precios">Precios</a>
+        </nav>
+    </header>
+
+    <div class="slider-container ancho" id="home">
+        <ul class="rslides" id="slider">
+            <li><img src="imagenes/slide1.jpg" alt=""></li>
+            <li><img src="imagenes/slide2.jpg" alt=""></li>
+            <li><img src="imagenes/slide3.jpg" alt=""></li>
+        </ul>
+        <div class="slider-content">
+            <div class="slider-text">
+                <h1>A Perfect Learning Center<br><span>for Your Kids</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <section class="ancho cont-programas" id="programas">
+        <div class="acordeon">
+            <div class="acordeon-item" data-color="verde">
+                <div class="acordeon-header">
+                    <figure class="acordeon-icono">
+                        <i class="fas fa-book"></i>
+                    </figure>
+                    <h3>Special Education</h3>
+                    <i class="fas fa-chevron-down acordeon-flecha"></i>
+                </div>
+                <div class="acordeon-contenido">
+                    <p>Our Special Education Program offers quality education to children with disabilities and developmental delays.</p>
+                </div>
+            </div>
+
+            <div class="acordeon-item" data-color="azul">
+                <div class="acordeon-header">
+                    <figure class="acordeon-icono">
+                        <i class="fas fa-sun"></i>
+                    </figure>
+                    <h3>Full Day Session</h3>
+                    <i class="fas fa-chevron-down acordeon-flecha"></i>
+                </div>
+                <div class="acordeon-contenido">
+                    <p>At Kinderex, we offer full-day preschool sessions built on a play-based approach for kids ages two to five.</p>
+                </div>
+            </div>
+
+            <div class="acordeon-item" data-color="coral">
+                <div class="acordeon-header">
+                    <figure class="acordeon-icono">
+                        <i class="fas fa-award"></i>
+                    </figure>
+                    <h3>Qualified Teachers</h3>
+                    <i class="fas fa-chevron-down acordeon-flecha"></i>
+                </div>
+                <div class="acordeon-contenido">
+                    <p>Our team consists of experienced and creative teachers who are dedicated to your kids' successful education.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ancho cont-preschool">
+        <p class="preschool-subtitle">The Best Preschool</p>
+        <h2 class="preschool-title">Providing Quality Education in a Creative Environment</h2>
+        <div class="boton-modal-wrapper">
+            <a href="#" id="abrir_modal" class="btn-modal">Solicita Información</a>
+        </div>
+    </section>
+
+    <div id="modal" class="modal-overlay">
+        <div class="modal-container">
+            <button id="cerrar_modal" class="close-modal">X</button>
+            <h2 class="modal-title">Solicita información</h2>
+            <figure class="modal-imagen">
+                <img src="imagenes/foto1.jpg" alt="Kids at Kinderex">
+            </figure>
+            <p class="modal-texto">
+                At Kinderex, our mission is to provide excellence in preschool, kindergarten, before and after school programs and summer camp for families living in the greater local area. Here you'll find exceptional teachers, curriculum and learning environments that encourage children to learn, play, and explore in a safe, healthy, and nurturing environment promoting creative thinking.
+            </p>
+            <div class="boton-send-wrapper">
+                <button class="btn-send">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="ancho cont-quienes" id="quienes">
+        <h2 class="quienes-titulo">Quienes somos</h2>
+        <p class="quienes-descripcion">
+            At our education center, we provide a variety of benefits and advantages for your kids' successful education,
+            while allowing your kid to stay fully active, creative, and healthy.
+        </p>
+
+        <div class="quienes-grid">
+            <article class="quienes-card wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                <figure class="quienes-icono">
+                    <i class="fas fa-user-shield"></i>
+                </figure>
+                <h3>Safety First</h3>
+                <p>We offer first-class protection and security for your children at Kinderex.</p>
+            </article>
+
+            <article class="quienes-card wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                <figure class="quienes-icono">
+                    <i class="fas fa-users-cog"></i>
+                </figure>
+                <h3>Small Class Size</h3>
+                <p>All classes at our center have up to 6 students regardless of the curriculum.</p>
+            </article>
+
+            <article class="quienes-card wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                <figure class="quienes-icono">
+                    <i class="fas fa-award"></i>
+                </figure>
+                <h3>Certified Teachers</h3>
+                <p>We hire only the most experienced and certified teachers for your children.</p>
+            </article>
+
+            <article class="quienes-card wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
+                <figure class="quienes-icono">
+                    <i class="fas fa-baby"></i>
+                </figure>
+                <h3>Infant Care</h3>
+                <p>Meeting the educational needs of infants through quality infant care.</p>
+            </article>
+
+            <article class="quienes-card wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                <figure class="quienes-icono">
+                    <i class="fas fa-palette"></i>
+                </figure>
+                <h3>Creative Lessons</h3>
+                <p>Our curriculum was designed to nurture creativity in all students of Kinderex.</p>
+            </article>
+
+            <article class="quienes-card wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">
+                <figure class="quienes-icono">
+                    <i class="fas fa-sun"></i>
+                </figure>
+                <h3>Happy Environment</h3>
+                <p>The best conditions for your child to have the unique learning experience.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="ancho cont-carousel" id="instalaciones">
+        <div class="carousel-nav">
+            <a href="#" id="carousel-prev">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+            <a href="#" id="carousel-next">
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+        <h2 class="carousel-titulo">Nuestros Programas</h2>
+        <div class="carousel-wrapper">
+            <div id="carousel-container" class="carousel-container">
+            <article class="carousel-slide" data-slideindex="0">
+                <figure class="carousel-imagen">
+                    <img src="imagenes/carrousel1.jpg" alt="Arts Programs">
+                </figure>
+                <div class="carousel-content">
+                    <h3>Arts Programs</h3>
+                    <p class="carousel-descripcion">
+                        These programs provide extensive art experiences and activities for kids and teens.
+                    </p>
+                    <p class="carousel-teacher">Teacher: <span>Stephen Rose</span></p>
+                </div>
+            </article>
+
+            <article class="carousel-slide" data-slideindex="1">
+                <figure class="carousel-imagen">
+                    <img src="imagenes/carrousel2.jpg" alt="Foreign Language Programs">
+                </figure>
+                <div class="carousel-content">
+                    <h3>Foreign Language Programs</h3>
+                    <p class="carousel-descripcion">
+                        The goal of these programs is to prepare your child for better foreign language studying.
+                    </p>
+                    <p class="carousel-teacher">Teacher: <span>Catherine White</span></p>
+                </div>
+            </article>
+
+            <article class="carousel-slide" data-slideindex="2">
+                <figure class="carousel-imagen">
+                    <img src="imagenes/carrousel3.jpg" alt="Sports Programs">
+                </figure>
+                <div class="carousel-content">
+                    <h3>Sports Programs</h3>
+                    <p class="carousel-descripcion">
+                        Competitive activities and movement classes form the basis of these programs.
+                    </p>
+                    <p class="carousel-teacher">Teacher: <span>Stephen Rose</span></p>
+                </div>
+            </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="ancho cont-precios-acordeon" id="precios">
+        <h2 class="precios-titulo">Precios</h2>
+
+        <div class="precio-acordeon">
+            <div class="precio-acordeon-header" data-color="azul">
+                <h3>Infants</h3>
+                <i class="precio-icono fa-solid fa-plus"></i>
+            </div>
+            <div class="precio-acordeon-content">
+                <figure class="precio-imagen">
+                    <img src="imagenes/nina_1.png" alt="Infants">
+                </figure>
+                <p class="precio-descripcion">
+                    This plan provides a full set of classes for infants, perfectly suited for making the first transition away from home natural and easy for your child.
+                </p>
+                <p class="precio-monto">$59.00/mo</p>
+                <a href="#" class="precio-btn">Sign Up</a>
+            </div>
+        </div>
+
+        <div class="precio-acordeon">
+            <div class="precio-acordeon-header" data-color="coral">
+                <h3>Kids</h3>
+                <i class="precio-icono fa-solid fa-plus"></i>
+            </div>
+            <div class="precio-acordeon-content">
+                <figure class="precio-imagen">
+                    <img src="imagenes/nino_2.png" alt="Kids">
+                </figure>
+                <p class="precio-descripcion">
+                    Our Kids plan is aimed at practicing the skills needed for kindergarten success, like following directions, reading, and writing.
+                </p>
+                <p class="precio-monto">$99.00/mo</p>
+                <a href="#" class="precio-btn">Sign Up</a>
+            </div>
+        </div>
+
+        <div class="precio-acordeon">
+            <div class="precio-acordeon-header" data-color="morado">
+                <h3>Early Kindergarten</h3>
+                <i class="precio-icono fa-solid fa-plus"></i>
+            </div>
+            <div class="precio-acordeon-content">
+                <figure class="precio-imagen">
+                    <img src="imagenes/nina_3.png" alt="Early Kindergarten">
+                </figure>
+                <p class="precio-descripcion">
+                    This plan is intended for our young 5-year-olds who miss the cut-off date for Kindergarten entrance or for those who need more time to prepare.
+                </p>
+                <p class="precio-monto">$199.00/mo</p>
+                <a href="#" class="precio-btn">Sign Up</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="ancho footer-content">
+            <div class="footer-info">
+                <figure class="footer-logo">
+                    <img src="imagenes/logofooter.png" alt="Kinderex Logo">
+                    <figcaption>
+                        <h3>Kinderex</h3>
+                        <p class="footer-subtitle">LEARNING CENTER</p>
+                    </figcaption>
+                </figure>
+                <p class="footer-descripcion">
+                    Kinderex is a creative and progressive education center where young children receive a warm, happy and enriching educational experience. We provide students with the highest quality education.
+                </p>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Information</h3>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>2130 Fulton Street, San Diego, CA</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>1-800-1234-567</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@demolink.org</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    // MENU DESPLEGABLE
+    $("#iconomenu").click(function () {
+      $("#cajamenu").slideToggle();
+    });
+
+    // SMOOTH SCROLL
+    $('nav a').click(function(e) {
+      e.preventDefault();
+      var target = $(this).attr('href');
+
+      if (window.innerWidth <= 768) {
+        $("#cajamenu").slideUp();
+      }
+
+      $('html, body').animate({
+        scrollTop: $(target).offset().top - 80
+      }, 800);
+    });
+
+    // ACORDEON TOGGLE
+    $(".acordeon-header").click(function() {
+      $(this).next(".acordeon-contenido").slideToggle();
+      $(this).find(".acordeon-flecha").toggleClass("rotado");
+    });
+
+    // ABRIR MODAL
+    $("#abrir_modal").click(function(e) {
+      e.preventDefault();
+      $("#modal").addClass("mostrar");
+    });
+
+    // CERRAR MODAL con botón X
+    $("#cerrar_modal").click(function() {
+      $("#modal").removeClass("mostrar");
+    });
+
+    // CERRAR MODAL al hacer click fuera
+    $("#modal").click(function(e) {
+      if(e.target.id === "modal") {
+        $("#modal").removeClass("mostrar");
+      }
+    });
+
+    // CAROUSEL NAVEGACION
+    let currentSlide = 0;
+    const totalSlides = $(".carousel-slide").length;
+
+    function updateCarousel() {
+      const slideWidth = $(".carousel-slide").first().outerWidth(true);
+      $("#carousel-container").css("transform", `translateX(-${currentSlide * slideWidth}px)`);
+    }
+
+    $("#carousel-next").click(function(e) {
+      e.preventDefault();
+      currentSlide = (currentSlide + 1) % totalSlides;
+      updateCarousel();
+    });
+
+    $("#carousel-prev").click(function(e) {
+      e.preventDefault();
+      currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+      updateCarousel();
+    });
+
+    $(window).resize(function() {
+      updateCarousel();
+    });
+
+    // ACORDEON DE PRECIOS
+    $(".precio-acordeon-header").click(function() {
+      var header = $(this);
+      var content = header.next(".precio-acordeon-content");
+      var icono = header.find(".precio-icono");
+
+      content.slideToggle();
+      icono.toggleClass("fa-plus fa-minus");
+    });
+    </script>
+
+    <script>
+        $(function() {
+            $("#slider").responsiveSlides({
+                auto: true,
+                speed: 500,
+                timeout: 4000,
+                pager: false,
+                nav: true,
+                prevText: "‹",
+                nextText: "›",
+                namespace: "rslides"
+            });
+        });
+    </script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+</html>
